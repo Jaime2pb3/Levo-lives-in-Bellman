@@ -23,6 +23,9 @@ Zero‑order training loop with "AdamW → Lion" schedule and a "conditional tol
    - Run cells top→bottom. If `lion-pytorch` isn’t installed, the loop falls back to AdamW automatically.
    - [![  Open In Colab  ](https://colab.research.google.com/assets/colab-badge.svg), (https://colab.research.google.com/github/Jaime2pb3/Levo-lives-in-Bellman/blob/main/LevoLivesInBellmanGit.ipynb)]
 
+![Loss vs Iteration — Tolerance mode reduces spikes](loss_tolerance_plot.png)
+Two loss curves (Bellman and Total). After “Tolerance ON”, the total loss shows fewer spikes and smoother decay.
+
 ## Files
 - `README.md`
 - `requirements.txt` 
