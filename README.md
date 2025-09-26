@@ -21,7 +21,7 @@ Zero‑order training loop with "AdamW → Lion" schedule and a "conditional tol
 2. Run
    - Open the notebook: `LevoLivesInBellmanGit.ipynb`
    - Run cells top→bottom. If `lion-pytorch` isn’t installed, the loop falls back to AdamW automatically.
-   - [![  Open In Colab  ](https://colab.research.google.com/assets/colab-badge.svg)] (https://colab.research.google.com/github/Jaime2pb3/Levo-lives-in-Bellman/blob/main/LevoLivesInBellmanGit.ipynb)
+   - [![  Open In Colab  ](https://colab.research.google.com/assets/colab-badge.svg), (https://colab.research.google.com/github/Jaime2pb3/Levo-lives-in-Bellman/blob/main/LevoLivesInBellmanGit.ipynb)]
 
 ## Files
 - `README.md`
