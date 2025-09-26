@@ -30,7 +30,7 @@ Two loss curves (Bellman and Total). After “Tolerance ON”, the total loss sh
 - `README.md`
 - `requirements.txt` 
 - `.gitignore` 
-- `LevoLivesInBellman.ipynb` 
+- `LevoLivesInBellmanGit.ipynb` 
 
 ## Notes
 - Tolerance Mode (Levo): Triggered only if resonance/uncertainty exceeds the threshold; uses antithetical sampling, adaptive stepping, and confidence region clipping.
