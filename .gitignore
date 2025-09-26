@@ -1,11 +1,30 @@
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Pesos / modelos
+*.pt
+*.pth
+*.ckpt
+
+# Datos y salidas locales
+data/
+datasets/
+outputs/
+runs/
+logs/
+
+# Entornos
+.venv/
+venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.egg-info/
-.venv/
-venv/
-.ipynb_checkpoints/
-*.nbconvert.ipynb
+
+# IDEs/OS
+.vscode/
 .DS_Store
 Thumbs.db
+
