@@ -3,7 +3,7 @@
 Zero‑order training loop with "AdamW → Lion" schedule and a "conditional tolerance mode (Levo)" that only activates under high uncertainty (`τ_on=0.95`, `τ_off=0.952`). The goal is not perfection, but "tolerance": fewer loss spikes and more stable outputs on ambiguous prompts.
 
 ### What’s inside
-- `LevoLivesInBellman.ipynb`: runnable demo (Torch).  
+- `LevoLivesInBellmanGit.ipynb`: runnable demo (Torch).  
 - Levo "gating" with hysteresis + kNN fallback.  
 - Metrics: cosine before/after, coverage in tolerance band, AE eval cost.
 - Plot: resonance (cos) before vs after.
@@ -19,8 +19,10 @@ Zero‑order training loop with "AdamW → Lion" schedule and a "conditional tol
    pip install lion-pytorch numpy pandas scikit-learn matplotlib
    ```
 2. Run
-   - Open the notebook: `LevoLivesInBellman.ipynb`
+   - Open the notebook: `LevoLivesInBellmanGit.ipynb`
    - Run cells top→bottom. If `lion-pytorch` isn’t installed, the loop falls back to AdamW automatically.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/github/Jaime2pb3/Levo-lives-in-Bellman/blob/main/LevoLivesInBellmanGit.ipynb)
 
 ## Files
 - `README.md`
